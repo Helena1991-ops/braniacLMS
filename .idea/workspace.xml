@@ -1,23 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="46064f7b-0ca5-4dee-b9b2-4f420e5724ee" name="Changes" comment="##2 added static site V2">
-      <change afterPath="$PROJECT_DIR$/braniacLMS/mainapp/templates/mainapp/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/braniacLMS/mainapp/templates/mainapp/includes/inc_main_menu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/braniacLMS.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="46064f7b-0ca5-4dee-b9b2-4f420e5724ee" name="Changes" comment="edit email.py">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/braniacLMS/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/braniacLMS/config/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/braniacLMS/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/braniacLMS/config/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/braniacLMS/mainapp/templates/mainapp/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/braniacLMS/mainapp/templates/mainapp/contacts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/braniacLMS/mainapp/templates/mainapp/courses_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/braniacLMS/mainapp/templates/mainapp/courses_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/braniacLMS/mainapp/templates/mainapp/doc_site.html" beforeDir="false" afterPath="$PROJECT_DIR$/braniacLMS/mainapp/templates/mainapp/doc_site.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/braniacLMS/mainapp/templates/mainapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/braniacLMS/mainapp/templates/mainapp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/braniacLMS/mainapp/templates/mainapp/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/braniacLMS/mainapp/templates/mainapp/news.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/braniacLMS/mainapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/braniacLMS/mainapp/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/braniacLMS/mainapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/braniacLMS/mainapp/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,11 +33,12 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/braniacLMS/mainapp/templatetags" />
+    <property name="settings.editor.selected.configurable" value="advanced.settings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Elena\PycharmProjects\braniacLMS\braniacLMS\mainapp\templatetags" />
       <recent name="C:\Users\Elena\PycharmProjects\braniacLMS\braniacLMS\static" />
       <recent name="C:\Users\Elena\PycharmProjects\braniacLMS\braniacLMS\mainapp\templates\mainapp" />
     </key>
@@ -175,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666510625810</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="edit email.py">
+      <created>1667111149822</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1667111149823</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -206,7 +201,8 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="##2 added static site" />
     <MESSAGE value="##2 added static site V2" />
-    <option name="LAST_COMMIT_MESSAGE" value="##2 added static site V2" />
+    <MESSAGE value="edit email.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit email.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
