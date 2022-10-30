@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="46064f7b-0ca5-4dee-b9b2-4f420e5724ee" name="Changes" comment="##2 added static site V2">
+      <change afterPath="$PROJECT_DIR$/braniacLMS/mainapp/templates/mainapp/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/braniacLMS/mainapp/templates/mainapp/includes/inc_main_menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/braniacLMS.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/braniacLMS/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/braniacLMS/config/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/braniacLMS/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/braniacLMS/config/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/braniacLMS/mainapp/templates/mainapp/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/braniacLMS/mainapp/templates/mainapp/contacts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/braniacLMS/mainapp/templates/mainapp/courses_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/braniacLMS/mainapp/templates/mainapp/courses_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/braniacLMS/mainapp/templates/mainapp/doc_site.html" beforeDir="false" afterPath="$PROJECT_DIR$/braniacLMS/mainapp/templates/mainapp/doc_site.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/braniacLMS/mainapp/templates/mainapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/braniacLMS/mainapp/templates/mainapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/braniacLMS/mainapp/templates/mainapp/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/braniacLMS/mainapp/templates/mainapp/news.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/braniacLMS/mainapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/braniacLMS/mainapp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/braniacLMS/mainapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/braniacLMS/mainapp/views.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2GOAuDxXVROfWOmNjq0BNyS6vYf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Elena\PycharmProjects\braniacLMS\braniacLMS\static" />
+      <recent name="C:\Users\Elena\PycharmProjects\braniacLMS\braniacLMS\mainapp\templates\mainapp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Elena\PycharmProjects\braniacLMS\braniacLMS\mainapp" />
+      <recent name="C:\Users\Elena\PycharmProjects\braniacLMS\braniacLMS\" />
+      <recent name="C:\Users\Elena\PycharmProjects\braniacLMS\braniacLMS" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.Replace name">
+    <configuration name="Replace name" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Elena\PycharmProjects\Python_GeekBrains\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Python_GeekBrains/My progects" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Python_GeekBrains/My progects/Replace name.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="email_to_link" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/braniacLMS/mainapp/templatetags" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/braniacLMS/mainapp/templatetags/email_to_link.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="braniacLMS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Replace name" />
+        <item itemvalue="Python.email_to_link" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="46064f7b-0ca5-4dee-b9b2-4f420e5724ee" name="Changes" comment="" />
+      <created>1666249476930</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1666249476930</updated>
+    </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1666249893280</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666249893280</updated>
+    </task>
+    <task id="LOCAL-00002" summary="first commit">
+      <created>1666250251607</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666250251607</updated>
+    </task>
+    <task id="LOCAL-00003" summary="first commit">
+      <created>1666251229992</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666251229992</updated>
+    </task>
+    <task id="LOCAL-00004" summary="##2 added static site">
+      <created>1666427599484</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666427599484</updated>
+    </task>
+    <task id="LOCAL-00005" summary="##2 added static site V2">
+      <created>1666510625810</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666510625810</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="lesson3" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <MESSAGE value="##2 added static site" />
+    <MESSAGE value="##2 added static site V2" />
+    <option name="LAST_COMMIT_MESSAGE" value="##2 added static site V2" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/braniacLMS/mainapp/apps.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
