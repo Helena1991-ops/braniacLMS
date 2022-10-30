@@ -5,11 +5,7 @@ register = template.Library()
 
 @register.filter
 def email(email_string):
-    result = f'<a href="mailto:{email_string}">{email_string}</a>'
-    return mark_safe(result)
+    return mark_safe(f'<a href="mailto:{email_string}">{email_string}</a>')
 
 
 
-@register.filter
-def myfilter(value):
-    return value.upper()
