@@ -1,17 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="46064f7b-0ca5-4dee-b9b2-4f420e5724ee" name="Changes" comment="Lesson3">
-      <change afterPath="$PROJECT_DIR$/braniacLMS/mainapp/fixtures/news.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/braniacLMS/mainapp/management/commands/seeding.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/braniacLMS/mainapp/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/braniacLMS/mainapp/migrations/0002_course_lesson_courseteacher.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/braniacLMS/mainapp/templates/mainapp/news_detail.html" afterDir="false" />
+    <list default="true" id="46064f7b-0ca5-4dee-b9b2-4f420e5724ee" name="Changes" comment="Lesson7">
+      <change afterPath="$PROJECT_DIR$/braniacLMS/geckodriver.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/braniacLMS/locale/ru/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/braniacLMS/locale/ru/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/braniacLMS/mainapp/fixtures/002_course.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/braniacLMS/mainapp/fixtures/003_lesson.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/braniacLMS/mainapp/fixtures/004_teachers.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/braniacLMS/mainapp/fixtures/005_feedback_list_1.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/braniacLMS/mainapp/fixtures/005_feedback_list_3.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/braniacLMS/mainapp/management/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/braniacLMS/mainapp/management/commands/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/braniacLMS/mainapp/management/commands/mm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/braniacLMS/pytest.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/braniacLMS/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/braniacLMS/config/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/braniacLMS/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/braniacLMS/config/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/braniacLMS/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/braniacLMS/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/braniacLMS/mainapp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/braniacLMS/mainapp/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/braniacLMS/mainapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/braniacLMS/mainapp/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/braniacLMS/mainapp/templates/mainapp/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/braniacLMS/mainapp/templates/mainapp/news.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/braniacLMS/mainapp/templates/mainapp/courses_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/braniacLMS/mainapp/templates/mainapp/courses_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/braniacLMS/mainapp/templates/mainapp/includes/inc_main_menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/braniacLMS/mainapp/templates/mainapp/includes/inc_main_menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/braniacLMS/mainapp/templates/mainapp/news_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/braniacLMS/mainapp/templates/mainapp/news_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/braniacLMS/mainapp/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/braniacLMS/mainapp/tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/braniacLMS/mainapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/braniacLMS/mainapp/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/braniacLMS/mainapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/braniacLMS/mainapp/views.py" afterDir="false" />
     </list>
@@ -23,18 +37,33 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lesson3" />
+        <entry key="$PROJECT_DIR$" value="lesson7" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="ProjectId" id="2GOAuDxXVROfWOmNjq0BNyS6vYf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -50,11 +79,13 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../braniac" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/braniacLMS/var/selenium" />
+    <property name="settings.editor.selected.configurable" value="build.tools" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Elena\PycharmProjects\braniacLMS\braniacLMS\var\selenium" />
+      <recent name="C:\Users\Elena\PycharmProjects\braniacLMS\braniacLMS\authapp\templates\authapp" />
       <recent name="C:\Users\Elena\PycharmProjects\braniacLMS\braniacLMS\mainapp\templatetags" />
       <recent name="C:\Users\Elena\PycharmProjects\braniacLMS\braniacLMS\static" />
       <recent name="C:\Users\Elena\PycharmProjects\braniacLMS\braniacLMS\mainapp\templates\mainapp" />
@@ -65,7 +96,7 @@
       <recent name="C:\Users\Elena\PycharmProjects\braniacLMS\braniacLMS\" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Replace name">
+  <component name="RunManager" selected="Python.tests">
     <configuration name="Replace name" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -129,13 +160,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="tests" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/braniacLMS/mainapp" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/braniacLMS/mainapp/tests.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.tests" />
         <item itemvalue="Python.Replace name" />
         <item itemvalue="Python.email_to_link" />
         <item itemvalue="Python.Replace name" />
         <item itemvalue="Python.email_to_link" />
-        <item itemvalue="Python.Replace name" />
       </list>
     </recent_temporary>
   </component>
@@ -197,7 +249,35 @@
       <option name="project" value="LOCAL" />
       <updated>1667457890715</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Lesson4">
+      <created>1668666221159</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1668666221159</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Merge remote-tracking branch 'origin/lesson4' into lesson4">
+      <created>1669626407292</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1669626407292</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Merge remote-tracking branch 'origin/lesson4' into lesson4">
+      <created>1670231931955</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1670231931955</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Lesson7">
+      <created>1671865637099</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1671865637099</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -231,7 +311,11 @@
     <MESSAGE value="##2 added static site V2" />
     <MESSAGE value="edit email.py" />
     <MESSAGE value="Lesson3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson3" />
+    <MESSAGE value="Lesson4" />
+    <MESSAGE value="Lesson5" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/lesson4' into lesson4" />
+    <MESSAGE value="Lesson7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson7" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
