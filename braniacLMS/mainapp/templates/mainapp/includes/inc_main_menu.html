@@ -1,0 +1,62 @@
+{% load static i18n %}
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item {% if request.resolver_match.view_name == 'mainapp:news' %} active {% endif %}">
+                        <a class="nav-link" href="{% url 'mainapp:news'%}">{% translate "News" %}</a>
+                    </li>
+                    <li class="nav-item {% if request.resolver_match.view_name == 'mainapp:courses' %} active {% endif %}">
+                        <a class="nav-link" href="{% url 'mainapp:courses'%}">{% translate "Courses" %}</a>
+                    </li>
+                     {% if user.is_authenticated %}
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="ddProfile" role="button" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false">
+                            {% translate "Profile" %}
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="ddProfile">
+                            <a class="dropdown-item" href="{% url 'authapp:edit' %}">{% translate "Edit profile" %}</a>
+                            <a class="dropdown-item" href="#">{% translate "My courses" %}</a>
+                            <div class="dropdown-divider"></div>
+                            {% if user.is_staff %}
+                                <a class="dropdown-item" href="{% url 'admin:index' %}">Модерация</a>
+                            {% endif %}
+                            {% if user.is_superuser %}
+                                <a class="dropdown-item" href="{% url 'admin:index' %}">{% translate "Django site admin" %}</a>
+                                <a class="dropdown-item" href="{% url 'mainapp:logs_list' %}">Логи</a>
+                            {% endif %}
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="{% url 'authapp:logout' %}">Выход</a>
+                        </div>
+                    </li>
+                     {% else %}
+                    <li class="nav-item {% if request.resolver_match.view_name == 'authapp:login' %} active {% endif %}">
+                        <a class="nav-link " href="{% url 'authapp:login' %}">{% translate "Log in" %}</a>
+                    </li>
+                    {% endif %}
+                    <li class="nav-item {% if request.resolver_match.view_name == 'mainapp:contacts' %} active {% endif %}">
+                        <a class="nav-link " href="{% url 'mainapp:contacts'%}">{% translate "Contacts" %}</a>
+                    </li>
+
+<!--                </ul>-->
+<!--                <span><a href="#">🇷🇺</a> <i class="fas fa-grip-lines-vertical"></i> <a href="#">🇬🇧</a></span>-->
+            </div>
+
+<div class="row justify-content-end m-0">
+        <div class="col p-0 border-right">
+          <form action="{% url 'set_language' %}" method="post">
+            {% csrf_token %}
+            <input name="language" type="hidden" value="ru">
+            <button type="submit" class="btn btn-link">🇷🇺</button>
+          </form>
+        </div>
+        <div class="col p-0 border-left">
+          <form action="{% url 'set_language' %}" method="post">
+            {% csrf_token %}
+            <input name="language" type="hidden" value="en">
+            <button type="submit" class="btn btn-link">🇬🇧</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
